@@ -25,6 +25,30 @@ p {
   font-size: 26px;
   line-height: 1.5;
 }
+.about-hero {
+  font-size: 64px;
+  line-height: 85px;
+  padding: 100px 20px;
+}
+.about-hero h1 {
+  margin-left: 30px;
+  font-family: var(--secondary-font-family);
+  font-size: 64px;
+  font-weight: bold;
+  color: var(--secondary-font-color);
+  text-shadow: 7px 3px 7px var(--branding-color);
+}
+.about-hero p {
+  line-height: 1.5;
+  font-size: 26px;
+}
+.about-section-content {
+  margin: 30px;
+}
+.about-image {
+  border-radius: 50%;
+  box-shadow: 0 0 98px 6px rgba(0, 0, 0, 0.2);
+}
 .hero {
   background: var(--hero-background-color);
   text-align: center;
@@ -95,6 +119,10 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .about-hero {
+    text-align: center;
+    padding: 0;
   }
 }
 .arrow {
