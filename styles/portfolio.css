@@ -25,12 +25,12 @@ p {
   font-size: 26px;
   line-height: 1.5;
 }
-.about-hero {
+.content-container {
   font-size: 64px;
   line-height: 85px;
   padding: 100px 20px;
 }
-.about-hero h1 {
+.content-container h1 {
   margin-left: 30px;
 
   font-family: var(--secondary-font-family);
@@ -39,11 +39,11 @@ p {
   color: var(--secondary-font-color);
   text-shadow: 7px 3px 7px var(--branding-color);
 }
-.about-hero p {
+.content-container p {
   line-height: 1.5;
   font-size: 26px;
 }
-.about-section-content {
+.content {
   margin: 30px;
 }
 .about-image {
@@ -131,4 +131,8 @@ p {
 }
 .arrow {
   text-shadow: 7px 4px 5px var(--branding-color);
+}
+.certificate {
+  width: 40px;
+  height: auto;
 }
