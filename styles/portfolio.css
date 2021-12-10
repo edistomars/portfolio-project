@@ -54,6 +54,7 @@ p {
 }
 
 .about-image {
+  max-width: 400px;
   border-radius: 50%;
   box-shadow: 0 0 98px 6px rgba(0, 0, 0, 0.2);
 }
@@ -164,4 +165,10 @@ mark {
 .contact {
   margin-top: 18px;
   padding: 28px;
+}
+.nav-item:hover {
+  text-decoration: underline;
+}
+.active {
+  color: var(--branding-color) !important;
 }
