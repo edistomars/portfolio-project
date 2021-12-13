@@ -75,6 +75,9 @@ footer .social-links a:hover {
   border-radius: 50%;
   box-shadow: 0 0 98px 6px rgba(0, 0, 0, 0.2);
 }
+.coding-certificate {
+  max-width: 450px;
+}
 .hero {
   background: var(--hero-background-color);
   text-align: center;
@@ -164,8 +167,13 @@ mark {
     margin-top: 50px;
   }
   .about-me {
-    margin-left: 9px;
+    margin-left: 0;
   }
+  .about-image {
+    max-width: 300px;
+    margin: 20px 90px;
+  }
+
   .projects-button {
     display: block;
     margin: 20px auto;
