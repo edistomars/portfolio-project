@@ -77,6 +77,7 @@ footer .social-links a:hover {
 }
 .coding-certificate {
   max-width: 450px;
+  margin: 0 20px;
 }
 .hero {
   background: var(--hero-background-color);
@@ -138,6 +139,9 @@ footer .social-links a:hover {
   display: block;
   text-align: center;
 }
+.launch-button {
+  margin: 0 20px;
+}
 mark {
   font-weight: bold;
   background-color: #f8f9fa;
@@ -158,6 +162,10 @@ mark {
     padding: 0;
     text-align: center;
   }
+  .projects-header {
+    text-align: center;
+    margin-left: 0;
+  }
 
   .about-hero {
     text-align: center;
@@ -167,11 +175,10 @@ mark {
     margin-top: 50px;
   }
   .about-me {
-    margin-left: 0;
+    text-align: center;
   }
   .about-image {
     max-width: 300px;
-    margin: 20px 90px;
   }
 
   .projects-button {
@@ -182,6 +189,8 @@ mark {
   }
   .content-container h1 {
     font-size: 64px;
+    text-align: center;
+    margin-left: 0;
   }
 }
 
