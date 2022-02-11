@@ -192,6 +192,9 @@ mark {
     text-align: center;
     margin-left: 0;
   }
+  .navbar-brand {
+    font-size: 24px;
+  }
 }
 
 .arrow {
@@ -220,6 +223,10 @@ mark {
 }
 .nav-item:hover {
   text-decoration: underline;
+}
+.navbar-brand {
+  font-family: "Monoton", cursive;
+  font-size: 48px;
 }
 .active {
   color: var(--branding-color) !important;
